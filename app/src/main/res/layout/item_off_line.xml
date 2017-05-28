@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/off_line_textview"
+          android:text="汽车"
+         android:textSize="18sp"
+         android:padding="10dp"
+         />
+<CheckBox
+    android:checked="true"
+  android:focusable="false"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_off_checkbox"
+    />
+
+</LinearLayout>
